@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    margin: 0px;
+}
+
+.imgCU {
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 15px;
+}
+
+.back {
+    max-height: 100%;
+}
+
+.anoncolor {
+    background-color: #404040;
+    padding: 10px;
+}
+
+.bordered {
+    border-radius: 10px;
+}
+
+.carousel {
+    height: 300px;
+}
+
+.net {
+    height: 300px;
+}
+
+.pad-50 {
+    padding: 50px !important;
+}
+
+.pad-30 {
+    padding: 30px !important;
+}
+
+.pad-20 {
+    padding: 20px !important;
+}
+
+.pad-20-top {
+    padding-top: 20px !important;
+}
+
+.pad-20-bottom {
+    padding-bottom: 20px !important;
+}
+
+.he {
+    max-height: 200px !important;
+    min-height: 100px;
+}
+
+.m {
+    margin-top: 40px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .m {
+        margin-top: 0px !important;
+    }
+}
+
+.navbar-fixed {
+    height: 70px;
+}
+
+nav {
+    height: 70px;
+}
+
+nav .brand-logo {
+    padding: 0 10px;
+    height: 57px;
+    margin-top: 6px;
+    line-height: 60px;
+    font-size: 2rem;
+}
+
+nav .sidenav-trigger,
+nav .sidenav-trigger i {
+    height: 70px;
+    line-height: 70px;
+}
+
+.makeBold {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#prize {
+    background-image: url(../images/prize.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+#prize h2,
+#prize h4 {
+    font-family: 'Josefin Sans', cursive;
+    letter-spacing: 2px;
+}
+
+#cash {
+    width: 30%;
+    filter: blur(0.5px);
+    transform: rotate(-30deg);
+}
+
+.te {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.prize-title {
+    margin-bottom: 0px;
+}
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 768px) {
+    #cash {
+        width: 40%;
+    }
+
+    .centered {
+        top: 40%
+    }
+
+    #prize {
+        margin: 10px;
+    }
+
+    #prize h2,
+    #prize h4 {
+        letter-spacing: 2px;
+    }
+
+    #prize .row img {
+        width: 80% !important;
+    }
+}
+
+#prize .row img {
+    width: 55%;
+}
+
+#prize .row {
+    margin-bottom: 0 !important;
+}
+
+/* Ranks */
+
+#rank {
+    background-image: url(../images/prize.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+#rank h2,
+#rank h4 {
+    font-family: 'Bree Serif', cursive;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    #rank {
+        margin: 10px;
+    }
+
+    #rank h2,
+    #rank h4 {
+        letter-spacing: 2px;
+    }
+
+}
+
+
+#rank .row {
+    margin-bottom: 0 !important;
+}
+
+
+.grad1 {
+    /* background-image: linear-gradient(to right bottom, #051937, #002c60, #003f8c, #0053bb, #1267eb); */
+    /* background-image: linear-gradient(to right, #1b2e89, #0059ac, #0079a6, #009381, #34a853); */
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.grad1-rev {
+    /* background-image: linear-gradient(to left bottom, #051937, #002c60, #003f8c, #0053bb, #1267eb); */
+    background-image: linear-gradient(to left, #1b2e89, #0059ac, #0079a6, #009381, #34a853);
+}
+
+.grad2{
+    background-image: linear-gradient(to right, #d31807, #da2818, #e13526, #e74133, #ed4c3f);    
+}
+
+.grad3{
+    background-image: linear-gradient(to right, #d19d05, #dca504, #e8ad03, #f3b601, #ffbe00);    
+}
+.grad5{
+    background-image: linear-gradient(to right, #1769f0, #2370f1, #2e77f2, #387ef3, #4285f4);
+}
+.grad4{
+    background-image: linear-gradient(to right, #1b8938, #22913f, #289845, #2ea04c, #34a853);    
+}
+.inherit-padding{
+    padding: inherit;
+}
+
+.titleShow {
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 44px;
+}
+
+input:focus , textarea:focus{
+    border-bottom: 1px solid #2196F3 !important;
+    -webkit-box-shadow: 0 1px 0 0 #2196F3 !important;
+    box-shadow: 0 1px 0 0 #2196F3 !important;
+    color:#2196F3 !important;
+ }
