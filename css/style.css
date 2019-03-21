@@ -4,6 +4,9 @@
 body {
     margin: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .imgCU {
     top: 50%;
@@ -239,4 +242,11 @@ input:focus , textarea:focus{
     -webkit-box-shadow: 0 1px 0 0 #2196F3 !important;
     box-shadow: 0 1px 0 0 #2196F3 !important;
     color:#2196F3 !important;
+ }
+
+ .register{
+    position: relative;
+    bottom: 0;
+    margin-top: 350px;
+    margin-left: 60px;
  }
