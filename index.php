@@ -1,4 +1,5 @@
 <?php
+$mailed="";
 function dataCleaner($dirty){
   $clean=htmlspecialchars(strip_tags(addslashes(trim(filter_var($dirty, FILTER_SANITIZE_STRING)))));
   return $clean;
@@ -27,8 +28,9 @@ function sendMail(){
  'X-Mailer: PHP/' . phpversion();
  $retval = mail ($to,$subject,$message,$headers);
  if( $retval == true ) {
+   $message="<p>Your Query is recorded with us, we will reply back to you soon.</p>";
  }else {
-  echo "Message could not be sent...";
+   $message="<p>Failed to send your request, please retry.</p>";
 }
 }
 
@@ -483,6 +485,7 @@ if(isset($_POST['submit'])){
                 </div>
               </div>
             </form>
+            <?php echo $mailed;?>
           </div>
         </div>
       </div>
@@ -511,29 +514,6 @@ if(isset($_POST['submit'])){
     </div>
   </section>
   <div class="divider"></div>
-
-
-  <div id="contactresponse" class="modal">
-    <div class="modal-content">
-      <h4>Thank you your name,</h4>
-      <p>Your Query is recorded with us, we will reply back to you soon</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-<!--
-
-    <div id="contactresponse" class="modal" style="display: block;">
-      <div class="modal-content">
-        <h4>Thank you your name,</h4>
-        <p>Your Query is recorded with us, we will reply back to you soon</p>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div> -->
 
 
   <!-- Models For question-->
