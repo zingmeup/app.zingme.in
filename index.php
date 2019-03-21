@@ -513,10 +513,27 @@ if(isset($_POST['submit'])){
   <div class="divider"></div>
 
 
+  <div id="contactresponse" class="modal">
+    <div class="modal-content">
+      <h4>Thank you your name,</h4>
+      <p>Your Query is recorded with us, we will reply back to you soon</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
 
+<!-- 
 
-
-
+    <div id="contactresponse" class="modal" style="display: block;">
+      <div class="modal-content">
+        <h4>Thank you your name,</h4>
+        <p>Your Query is recorded with us, we will reply back to you soon</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div> -->
 
 
   <!-- Models For question-->
