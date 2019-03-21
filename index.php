@@ -523,7 +523,7 @@ if(isset($_POST['submit'])){
     </div>
   </div>
 
-<!-- 
+<!--
 
     <div id="contactresponse" class="modal" style="display: block;">
       <div class="modal-content">
