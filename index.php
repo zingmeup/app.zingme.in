@@ -175,7 +175,8 @@ if(isset($_POST['submit'])){
   <div id="home" class="parallax-container">
     <div class="parallax"><img src="images/back.png" class="back hide-on-med-and-down" alt="back for Desktop"></div>
     <div class="parallax"><img src="images/back-mob.png" class="back hide-on-large-only" alt="back for mobile"></div>
-    <a href="http://techinvent.cuchd.in/login.php" class="btn btn-large register grad5 waves-effect waves-light bordered"> REGISTER NOW! </a>
+    <a href="http://techinvent.cuchd.in/login.php" class="btn btn-large register grad5 waves-effect waves-light bordered hide-on-med-and-down"> REGISTER NOW! </a>
+    <a href="http://techinvent.cuchd.in/login.php" class="btn btn-large register grad4 waves-effect waves-light bordered  hide-on-large-only"> REGISTER NOW! </a>
   </div>
 
   <section id="about" style="padding-top: 10px" class="center section">
@@ -357,7 +358,7 @@ if(isset($_POST['submit'])){
             <li class="collection-item">Build everything from the scratch, not WebView nor WebApp.</li>
             <li class="collection-item">Build your apps based on problem statements (to be disclosed).</li>
             <li class="collection-item">Bring your own laptops with softwares Required</li>
-            <li class="collection-item">Last date for applying is 04-April</li>
+            <li class="collection-item">Last date for applying is 26-March</li>
           </ul>
         </div>
       </div>
@@ -522,7 +523,7 @@ if(isset($_POST['submit'])){
   <div id="one" class="modal">
     <div class="modal-content">
       <h4>Problem Statement 1</h4>
-      <p>A bunch of text</p>
+      <p>To be disclosed</p>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
@@ -531,7 +532,7 @@ if(isset($_POST['submit'])){
   <div id="two" class="modal">
     <div class="modal-content">
       <h4>Problem Statement 2</h4>
-      <p>A bunch of text</p>
+      <p>To be disclosed</p>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
@@ -540,7 +541,7 @@ if(isset($_POST['submit'])){
   <div id="three" class="modal">
     <div class="modal-content">
       <h4>Problem Statement 3</h4>
-      <p>A bunch of text</p>
+      <p>To be disclosed</p>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
@@ -549,7 +550,7 @@ if(isset($_POST['submit'])){
   <div id="four" class="modal">
     <div class="modal-content">
       <h4>Problem Statement 4</h4>
-      <p>A bunch of text</p>
+      <p>To be disclosed</p>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
@@ -558,7 +559,7 @@ if(isset($_POST['submit'])){
   <div id="five" class="modal">
     <div class="modal-content">
       <h4>Problem Statement 5</h4>
-      <p>A bunch of text</p>
+      <p>To be disclosed</p>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
